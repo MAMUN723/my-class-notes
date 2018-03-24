@@ -1,0 +1,1304 @@
+===============
+===============
+JAVA CLASS NOTE
+===============
+===============
+
+
+*********************************************************************************
+CLASS: 01
+DATE:  03/01/2018
+*********************************************************************************
+
+==========
+INSTRUCTOR
+==========
+
+Asadul Haque
+
+Contact
+Email:	haq.asad000@gmail.com
+Phone:	+1 (216) 526-2343
+
+===============
+ABOUT THE CLASS
+===============
+
+1. Every Thursday@7 - 9 PM
+2. Class will take place on GoToMeeting Online
+3. This course will consist of class lecture, home work, test
+4. I'll keep track of attendance, home work and tests
+5. Class participation is mandatory
+
+===============================================
+CLASS PARTICIPATION, QUESTIONS, PROBLEM SOLVING
+===============================================
+
+1. I'll give 10 minutes before the class and 20 minutes after the class to ask questions
+2. If you have questions or problems needed to be solved outside of the class  please 
+   send me an email with the code with proper documentation and screen shot of the error 
+   message. If you want any questions to be asked please email it to me elaborating the 
+   question as much as possible.
+3. I am available over phone and email. However, if you are unable to reach me over phone
+   please text me stating your topic of discussion. I'll reach out to you as soon as 
+   possible
+4. People who are new and do not have my number in their contact list, please send me a 
+   text with your full name and email address. Also, mention that you are attending the 
+   basic java class in the text
+5. There is an active community / group in Viber for group discussions. If you are new here 
+   and interested, please let me know via text. I'll add you to the group. I'll be active and
+   following the group chats.
+6. I'll share video tutorials, articles in the Viber group before the next class on the 
+   topic of the next class, so that you can gain some insight on those topics.
+7. If you want any topic to be reviewed or re-discussed in the class please discuss it with
+   other students in the Viber group. If majority of the students agree, I'll discuss it in
+   the class
+8. If you miss any class or late for calss please connect with others about the topic. Time 
+   to time I'll take votes on which topic can be reviewed or discussed. Please remind me about 
+   the topics that you missed or I forgot to discuss in the class.
+
+===========================   
+CLASS NOTES, HOMEWORK, TEST
+===========================
+
+1. After every class, class notes will be provided. This text file will serve as class note.
+   Class note will contain topic discussion, concepts, necessary codes
+2. After every class there will be home work based on the topics taught in the class. Also,
+   there will be additional practice problems for those who want to practice more
+3. Home works will be mandatory and practice problems will be optional
+4. Every two weeks there will be a test on the previous topics (topics starting from class 1).
+   Test questions will appear from class note, home work, practice problems and discussions from 
+   the class
+
+=====
+RULES
+=====
+
+1. Please submit your home work before Wednesday@12 PM. Home works sent after the deadline will
+   not be evaluated on that week. It will be evaluated next week
+2. Please submit your questions, problems before Wednesday@12 PM to be discussed on that week.
+   Problems submitted after that time will be discussed next week
+3. Homeworks should be properly documented as shown in the class
+4. Test duration will be 30 minutes to 1 hour
+5. All official communication will be through email!
+6. All the submissions (home work/test/problems) must be through email!
+7. All unofficial communication will be through Viber
+8. Please do not be late for class. Class would start exactly at Thursday@7 PM
+9. Test will not be postponed at any cost. If you want any test to postponed, I'll need confirmation
+   from every one in Viber group
+10.Please speak up in the class if any question is asked in the class
+11.If you have missed two consecutive classes without any prior notice, I'll automatically remove you
+   from email list and Viber group
+
+======================
+ADVICE FROM INSTRUCTOR
+======================
+
+1. Please keep the environment clean and friendly. No political, religious, out side topic should be
+   discussed in group chat or email conversation
+2. Help each other and work in groups. Discuss the topics and solutions to problems in the group. 
+3. Share your research, tutorials, articles in the group
+4. Do not copy-paste others solutions and present it as yours
+5. This class is intended as supplimentary to Dada's class. People taking this class comes from different
+   background and often scared of programming. The goal of this class is to eliminate the fear of coding.  
+6. Preserve all your codes, class notes, home work solution, test solution for future use
+7. Participate in verbal discussion in the class
+8. Please be regular in your studies, if necessary, take help from others. If you do not finish your home 
+   works, test in time, you'll lag behind and it'll be very difficult to catch up.
+9. If you are lagging behind and need help, please let me know as soon as possible. If you have a valid reason
+   for lagging behind, I'll personally help you to get you up to speed. Valid reasons would be: 
+   SICKNESS 
+   IMMEDIATE DEATH OF ANY FAMILY MEMBERS.   
+10.Every one's performance will be evaluated based on attended classes, home work, tests. Performance evaluation
+   will be submitted to Dada. This performance evaluation will be a deciding factor for how soon you are ready
+   to be in Job Market
+
+==========   
+CURRICULUM
+==========
+
+1. 	Basic:
+			Variable
+			Data type
+			OOP
+			String and File manupulation
+	
+	Advanced:
+			Generics
+			Interface
+			Java Collection Framework
+	
+	Selenium:
+			HTML, DOM
+			Parent-Child Relationship
+			Locators
+			
+	Extra:
+			JUnit
+			TestNg
+			Maven
+			GitHub
+			
+=======================
+TOOLS REQUIRED FOR JAVA
+=======================
+
+1. Oracle JDK(Java Development Kit - Most preferable 1.8 or any version greater than 1.6)
+2. Eclipse (Preferably NEON)
+
+==============
+INSTALLING JDK
+==============
+
+1. Go to Google and search: "Download JDK 1.8" and click on the first link that appears.
+   You will go to the Oracle webpage for JDK download
+   OR,
+   Click on this direct link to Oracle webpage for JDK download:
+   http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+2. If you have an Oracle account use that credential to log in or else create an Oracle 
+   account using the "Sign In" drop down menu at the top of the page
+   
+3. Now after you have signed in, download JDK from the same page based on your system. You
+   need to accept the license agreement before downloading. After the download is finished
+   you'll find a file with .exe extension
+   
+4. Double click on the .exe file you just downloaded to install JDK. Please follow the default
+   installation process
+   
+5. After JDK is installed, set up environment variables
+
+==================
+INSTALLING ECLIPSE
+==================       
+
+1. Eclipse Neon direct download link: 
+   http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3
+
+   
+===========================================
+PROGRAM 1# FIRST JAVA PROGRAM: HELLO WORLD!			
+===========================================			
+   
+package com.ftf.lecture.one;
+
+//==================================================================
+//		Subject:	First Java Program / Hello World Program
+//		Author:		Asadul Haque
+//		Date:		03/01/2018
+//==================================================================
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World!");
+
+	}
+
+}
+
+========================================
+PROGRAM 2# EXAMPLE OF CREATING VARIABLES			
+========================================
+
+package com.ftf.lecture.one;
+
+//======================================================================
+//		Subject:	Variable Declaration
+//		Author:		Asadul Haque
+//		Date:		03/01/2018
+//======================================================================
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		//==================================================================
+		// Variable Declaration:
+		// data_type variable_name = variable_value;
+		//==================================================================
+				
+		int var = 555;
+		
+		System.out.println(var);
+
+	}
+
+}
+
+===============================
+PROGRAM 3# EXAMPLE OF DATA TYPE
+===============================
+
+package com.ftf.lecture.one;
+
+//======================================================================
+//		Subject:	Learning about different Data Types
+//		Author:		Asadul Haque
+//		Date:		03/01/2018
+//======================================================================
+
+public class PrimitiveDataType {
+
+	public static void main(String[] args) {
+		
+		//==================================================================
+		// Data type for number (integers): byte, short, int, long	
+		//==================================================================
+		
+		byte a = 127;
+		short b = 32767;
+		int c = 2147483647;
+		long d = 9223372036854775807l;
+		
+		System.out.println("Value of a is " + a + " and is of type byte");
+		System.out.println("Value of b is " + b + " and is of type short");
+		System.out.println("Value of c is " + c + " and is of type int");
+		System.out.println("Value of d is " + d + " and is of type long\n\r");
+		
+		//==================================================================
+		// Data type for decimal number (floating point): float, double	
+		//==================================================================
+		
+		float e = 5.5860485747395f;
+		double f = 9.84575647382939373;
+		
+		System.out.println("Value of e is " + e + " and is of type float");
+		System.out.println("Value of f is " + f + " and is of type double\n\r");
+		
+		//==================================================================
+		// Data type for character: char	
+		//==================================================================
+		
+		char letter = 'b';
+		
+		System.out.println("Value of letter is " + letter + " and is of type char\n\r");
+		
+		//==================================================================
+		// Data type for boolean: boolean	
+		//==================================================================
+		
+		boolean val = true;
+		
+		System.out.println("Value of val is " + val + " and is of type boolean");
+	}
+
+}
+
+==============================
+PROGRAM 4# EXAMPLE OF OPERATOR
+==============================
+
+package com.ftf.lecture.one;
+
+//======================================================================
+//		Subject:	Learning Operators
+//		Author:		Asadul Haque
+//		Date:		03/01/2018
+//======================================================================
+
+public class Operators {
+
+	public static void main(String[] args) {
+
+		//==================================================================
+		// Arithmetic Operators
+		//==================================================================
+		
+		int num1 = 10;
+		int num2 = 5;
+		
+		//==================================================================
+		// Addition
+		//==================================================================
+		
+		int addResult = num1 + num2;
+		System.out.println(num1 + " + " + num2 + " = " + addResult);
+		
+		//==================================================================
+		// Subtraction
+		//==================================================================
+		
+		int subResult = num1 - num2;
+		System.out.println(num1 + " - " + num2 + " = " + subResult);
+
+		//==================================================================
+		// Multiplication
+		//==================================================================
+		
+		int multResult = num1 * num2;
+		System.out.println(num1 + " * " + num2 + " = " + multResult);
+
+		//==================================================================
+		// Division
+		//==================================================================
+		
+		int divResult = num1 / num2;
+		System.out.println(num1 + " / " + num2 + " = " + divResult);
+		
+		//==================================================================
+		// Modulus
+		//==================================================================
+		
+		int modResult = num1 % num2;
+		System.out.println(num1 + " % " + num2 + " = " + modResult);
+		
+		System.out.println("\n\r");
+		
+		//==================================================================
+		// Increment
+		//==================================================================
+		
+		int num3 = 34;
+		//num3 = num3 + 1;		
+		num3++;
+		System.out.println("The value of num3 is: " + num3);
+		
+		//==================================================================
+		// Decrement
+		//==================================================================
+		
+		int num4 = 20;
+		//num4 = num4 - 1;
+		num4--;
+		System.out.println("The value of num4 is: " + num4);
+		
+	}
+
+}
+
+=================================================
+PROGRAM 5# EXAMPLE OF CONTROL STATEMENT (IF-ELSE)
+=================================================
+
+package com.ftf.lecture.one;
+
+//======================================================================
+//		Subject:	If-Else Statement
+//		Author:		Asadul Haque
+//		Date:		03/01/2018
+//======================================================================
+
+public class ConditionalStatement {
+
+	public static void main(String[] args) {
+		
+		int val1 = 20;
+		int val2 = 50;
+		
+		//==================================================================
+		// Relational Operators
+		// ==
+		// !=
+		// >
+		// >=
+		// <
+		// <=
+		//==================================================================
+		
+		// Is val1 greater than val2? FALSE
+		if (val1 > val2) {
+			System.out.println("Value1 is greater than Value2"); // EXECUTE THIS IF TRUE			
+		} else {
+			System.out.println("Value2 is greater than Value1"); // EXECUTE THIS IF FALSE
+		}
+
+	}
+
+}
+
+========
+HOMEWORK
+========
+
+1. There are 5 programs in this lecture. Copy Paste them in Eclipse and run them.
+
+
+
+*********************************************************************************
+CLASS: 02
+DATE:  03/08/2018
+*********************************************************************************
+
+TODAY'S CLASS:
+
+1. LOOPS
+2. ARRAY
+3. METHOD - ARGUMENT, RETURN TYPE
+4. CLASS
+5. OBJECT - CONSTRUCTOR
+6. GETTER, SETTER
+7. METHOD OVERLOADING
+
+========
+FOR LOOP
+========
+
+# Loop is used to perform an action repeatedly
+# Syntax for For loop:
+
+for (control variable declaration; boundary / boolean condition; increment/decrement) {
+
+	// CODE TO BE REPEATED
+	
+}
+
+# Example:
+
+for (int i=0; i<11; i++) {
+	System.out.println("Hello World!");
+}
+
+==========
+WHILE LOOP
+==========
+
+# Syntax for While loop:
+
+while (boolean condition) {
+
+	// CODE TO BE REPEATED
+	
+}
+
+# Example:
+
+int j = 0;
+
+while (j <=10) {
+	System.out.println("Hello Java!");
+	j++;
+}
+
+=====
+ARRAY
+=====
+
+# Declaration:
+
+	int[] rollNum = new int[5];
+	OR,
+	int rollNum[] = new int[5];
+	
+	Both are correct
+	
+# Explanation:
+
+	===========================
+	int[] rollNum = new int[5];
+	OR,
+	int rollNum[] = new int[5];
+	===========================
+	int rollNum0 = 0;
+	int rollNum1 = 0;
+	int rollNum2 = 0;
+	int rollNum3 = 0;
+	int rollNum4 = 0;
+	===========================
+	rollNum[0] (= 0)
+	rollNum[1] (= 0)	
+	rollNum[2] (= 0)
+	rollNum[3] (= 0)
+	rollNum[4] (= 0)
+	===========================
+	
+	DECIMAL = 0 1 2 3 4 5 6 7 8 9
+	BINARY  = 0 1
+	
+	Integer can store 128 bits.
+	To store 0 / 1 takes 1 bit storage
+
+	When you declare a variable of type int
+	
+	int A  = 50;
+		
+	Decimal		Binary
+	50		=	110010
+	
+	50		=	00000000000000... ... 110010
+	
+	
+   +--------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+   |VALUE	| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | . | . | . | . | . | . | . | . | . | 1 | 1 | 0 | 0 | 1 | 0 |
+   +--------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+   |MEMORY	| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | . | . | . | . | . | . | . | . | . |123|124|125|126|127|128|
+   +--------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+
+	When you declare an array of type int
+	
+	int[] rollNum = new int[5];
+	OR,
+	int rollNum[] = new int[5];
+	
+	+-----------+-----------+-----------+
+ 	|INDEX 		| VALUE		| CAPACITY	|
+	+-----------+-----------+-----------+
+ 	|rollNum[0] | 00....00	| 32 bits	|
+	+-----------+-----------+-----------+
+	|rollNum[1] | 00....00	| 128 bits	|
+	+-----------+-----------+-----------+
+	|rollNum[2] | 00....00	| 128 bits	|
+	+-----------+-----------+-----------+
+	|rollNum[3] | 00....00	| 128 bits	|
+	+-----------+-----------+-----------+
+	|rollNum[4] | 00....00	| 128 bits	|
+	+-----------+-----------+-----------+
+
+	rollNum[1 + 1] = rollNum[2]
+
+============================
+PROGRAM 1 # EXAMPLE OF ARRAY 
+============================
+	
+package com.ftf.lecture.two;
+
+//======================================================================
+//Subject:	Array Example
+//Author:	Asadul Haque
+//Date:		03/08/2018
+//======================================================================
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		int[] rollNum = new int[5];
+		//int rollNum[] = new int[5];
+		//String[] names = new String[500];
+		
+		//============================================
+		// After this line the initial value is zero
+		// rollNum[0] = 0
+		// rollNum[1] = 0	
+		// rollNum[2] = 0
+		// rollNum[3] = 0
+		// rollNum[4] = 0
+		//============================================
+		
+		//============================================
+		// ASSIGNING VALUE TO ARRAY
+		//============================================
+		
+		rollNum[0] = 95; // rollNum[1] = 0 ... rollNum[4] = 0
+		System.out.println("Roll number 1 got " + rollNum[0] + " in Maths");
+		
+		rollNum[1] = 85; // rollNum[2] = 0 ... rollNum[4] = 0
+		System.out.println("Roll number 2 got " + rollNum[1] + " in Maths");
+		
+		rollNum[2] = 83;
+		System.out.println("Roll number 3 got " + rollNum[2] + " in Maths");
+		
+		rollNum[3] = 75;
+		System.out.println("Roll number 4 got " + rollNum[3] + " in Maths");
+		
+		rollNum[4] = 65;
+		System.out.println("Roll number 5 got " + rollNum[4] + " in Maths");
+	}
+
+}
+	
+CLASS
+	PROPERTIES: STATE (variables / instance variables) BEHAVIOUR (methods)
+	
+AMIMAL CLASS
+
+INSTANCE VARIABLES:
+
+1. food 	- 	type of food the animal eats
+2. location - 	place where it lives
+3. hunger 	- 	integer representing the hunger level of the animal
+4. habitat 	- 	domestic or wild
+
+METHODS:
+
+1. makeNoise()	- behavior for when the animal is supposed to make noise
+2. eat()		- behavior for when the animal encounters its preferred food source
+3. sleep()		- behavior for when the animal is considered asleep
+4. roam()		- behavior for when the animal is considered not eating or sleeping (wandering for food / water)
+
+==========================
+PROGRAM 1 # EXAMPLE OF OOP 
+==========================
+
+package com.ftf.lecture.two;
+
+//======================================================================
+//Subject:	Class Example
+//Author:	Asadul Haque
+//Date:		03/08/2018
+//======================================================================
+
+public class Animal {
+	
+	String food = "Meat";
+	String location = "Africa";
+	int hunger = 3;
+	String habitat = "Wild";
+	
+/*	String food;
+	String location;
+	int hunger;
+	String habitat;*/
+	
+	//===========================================================
+	// CONSTRUCTOR
+	//===========================================================
+	
+/*	public Animal() {
+		
+	}
+	
+	public Animal(String food, String location, int hunger) {
+		
+		this.food = food;
+		this.location = location;
+		this.hunger = hunger;
+	}*/
+	
+	//===========================================================
+	// GETTER SETTER
+	//===========================================================
+	
+/*	public String getFood() {
+		return food;
+	}
+
+	public void setFood(String food) {
+		this.food = food;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public int getHunger() {
+		return hunger;
+	}
+
+	public void setHunger(int hunger) {
+		this.hunger = hunger;
+	}
+
+	public String getHabitat() {
+		return habitat;
+	}
+
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}*/
+
+	public void eat() {
+		System.out.println("The animal eats " + food);
+	}
+	
+	public void makeNoise() {
+		System.out.println("The animal lives in " + location);
+	}
+	
+	public void sleep() {
+		System.out.println("The animal is nocturnal");
+	}
+	
+	public void roam() {
+		System.out.println("The animal hunts in pack");
+	}
+
+}
+
+===========
+NEXT CLASS:
+===========
+
+1. OOP - INHERITANCE, POLYMORPHISM, ENCAPSULATION
+2. FINAL - CLASS, METHOD
+3. ABSTRACT - CLASS, METHOD
+4. INTERFACE
+5. READING JAVADOC
+6. STRING CLASS
+
+========
+HOMEWORK
+========
+
+2. Please Copy Paste the programs in Eclipse and run them.
+
+
+*********************************************************************************
+CLASS: 03
+DATE:  03/15/2018
+*********************************************************************************
+
+**********************************************************************
+ALL THE CODES ARE HOSTED IN GITHUB: https://github.com/haqasad/JavaFTF
+**********************************************************************
+
+============================
+PROGRAM 1 # EXAMPLE OF CLASS 
+============================
+
+package com.ftf.lecture.three;
+
+//======================================================================
+//Subject:	Class Example
+//Author:	Asadul Haque
+//Date:		03/15/2018
+//======================================================================
+
+public class Animal {
+	
+	String food = "Meat";
+	String location = "Africa";
+	int hunger = 3;
+	String habitat = "Wild";
+
+	public void eat() {
+		System.out.println("The animal eats " + food);
+	}
+	
+	public void makeNoise() {
+		System.out.println("The animal lives in " + location);
+	}
+	
+	public void sleep() {
+		System.out.println("The animal is nocturnal");
+	}
+	
+	public void roam() {
+		System.out.println("The animal hunts in pack");
+	}
+
+}
+
+====================================
+PROGRAM 2 # EXAMPLE OF GETTER SETTER 
+====================================
+
+package com.ftf.lecture.three;
+
+//======================================================================
+//Subject:	Getter Setter Example
+//Author:	Asadul Haque
+//Date:		03/15/2018
+//======================================================================
+
+public class AnimalGetterSetter {
+	
+	public String food;
+	public String location;
+	public int hunger;
+	public String habitat;
+	
+	//===========================================================
+	// SETTER
+	//===========================================================
+	
+	public void setFood(String food) {
+		this.food = food;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public void setHunger(int hunger) {
+		this.hunger = hunger;
+	}
+
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}
+
+	//===========================================================
+	// GETTER
+	//===========================================================
+
+	public String getFood() {
+		return food;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public int getHunger() {
+		return hunger;
+	}
+
+	public String getHabitat() {
+		return habitat;
+	}
+
+	//===========================================================
+	// METHODS
+	//===========================================================
+
+	public void eat() {
+		System.out.println("The animal eats " + food);
+	}
+	
+	public void makeNoise() {
+		System.out.println("The animal lives in " + location);
+	}
+	
+	public void sleep() {
+		System.out.println("The animal is nocturnal");
+	}
+	
+	public void roam() {
+		System.out.println("The animal hunts in pack");
+	}
+
+}
+
+====================================
+PROGRAM 3 # EXAMPLE OF ENCAPSULATION 
+====================================
+
+package com.ftf.lecture.three;
+
+//======================================================================
+//Subject:	Encapsulation (public, private) Example
+//Author:	Asadul Haque
+//Date:		03/15/2018
+//======================================================================
+
+public class AnimalEncapsule {
+
+	public String food;
+	public String location;
+	public int hunger;
+	public String habitat;	
+	
+/*	private String food;
+	private String location;
+	private int hunger;
+	private String habitat;*/
+	
+	//===========================================================
+	// SETTER
+	//===========================================================
+	
+	public void setFood(String food) {
+		this.food = food;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public void setHunger(int hunger) {
+		this.hunger = hunger;
+	}
+
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}
+
+	//===========================================================
+	// GETTER
+	//===========================================================
+
+	public String getFood() {
+		return food;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public int getHunger() {
+		return hunger;
+	}
+
+	public String getHabitat() {
+		return habitat;
+	}
+
+	//===========================================================
+	// METHODS
+	//===========================================================
+
+	public void eat() {
+		System.out.println("The animal eats " + food);
+	}
+	
+	public void makeNoise() {
+		System.out.println("The animal lives in " + location);
+	}
+	
+	public void sleep() {
+		System.out.println("The animal is nocturnal");
+	}
+	
+	public void roam() {
+		System.out.println("The animal hunts in pack");
+	}
+	
+}
+
+==================================
+PROGRAM 4 # EXAMPLE OF CONSTRUCTOR 
+==================================
+
+package com.ftf.lecture.three;
+
+//======================================================================
+//Subject:	Constructor Example
+//Author:	Asadul Haque
+//Date:		03/15/2018
+//======================================================================
+
+public class AnimalConstructor {
+	
+/*	String food = "Meat";
+	String location = "Africa";
+	int hunger = 3;
+	String habitat = "Wild";*/
+
+	String food;
+	String location;
+	int hunger;
+	String habitat;
+	
+	//===========================================================
+	// CONSTRUCTOR - 1
+	//===========================================================
+	
+	public AnimalConstructor() {
+		
+		this.food = "Meat";
+		this.location = "Africa";
+		this.hunger = 3;
+		this.habitat = "Wild";
+		
+	}
+	
+	//===========================================================
+	// CONSTRUCTOR - 2
+	//===========================================================
+	
+	public AnimalConstructor(String food) {
+		
+		this.food = food;
+		this.location = "Africa";
+		this.hunger = 3;
+		this.habitat = "Wild";
+		
+	}
+	
+	//===========================================================
+	// CONSTRUCTOR - 3
+	//===========================================================
+	
+	public AnimalConstructor(String food, String location) {
+		
+		this.food = food;
+		this.location = location;
+		this.hunger = 3;
+		this.habitat = "Wild";
+		
+	}
+	
+	//===========================================================
+	// CONSTRUCTOR - 4
+	//===========================================================
+	
+	public AnimalConstructor(String food, String location, int hunger) {
+		
+		this.food = food;
+		this.location = location;
+		this.hunger = hunger;
+		this.habitat = "Wild";
+		
+	}
+	
+	//===========================================================
+	// CONSTRUCTOR - 5
+	//===========================================================
+	
+	public AnimalConstructor(String food, String location, int hunger, String habitat) {
+		
+		this.food = food;
+		this.location = location;
+		this.hunger = hunger;
+		this.habitat = habitat;
+		
+	}
+
+	//===========================================================
+	// GETTER SETTER
+	//===========================================================
+	
+	public String getFood() {
+		return food;
+	}
+
+	public void setFood(String food) {
+		this.food = food;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public int getHunger() {
+		return hunger;
+	}
+
+	public void setHunger(int hunger) {
+		this.hunger = hunger;
+	}
+
+	public String getHabitat() {
+		return habitat;
+	}
+
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}
+	
+	//===========================================================
+	// METHODS
+	//===========================================================
+	
+	public void eat() {
+		System.out.println("The animal eats " + food);
+	}
+	
+	public void makeNoise() {
+		System.out.println("The animal lives in " + location);
+	}
+	
+	public void sleep() {
+		System.out.println("The animal is nocturnal");
+	}
+	
+	public void roam() {
+		System.out.println("The animal hunts in pack");
+	}
+
+}
+
+======================
+PROGRAM 5 # TEST CLASS 
+======================
+
+package com.ftf.lecture.three;
+
+//======================================================================
+//Subject:	Test Class
+//Author:	Asadul Haque
+//Date:		03/14/2018
+//======================================================================
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	//******************************************************************
+	//							ANIMAL CLASS
+    //******************************************************************
+		
+		
+		//==============================================================
+		// ANIMAL CLASS INSTANTIATION (creating object for animal class)
+		//==============================================================		
+		
+		Animal animal1 = new Animal();
+		
+		//==============================================================
+		// accessing all the animal class properties
+		//==============================================================
+		
+		System.out.println("Printing all the instance variables of animal class\n");
+		System.out.println(animal1.food);
+		System.out.println(animal1.location);
+		System.out.println(animal1.hunger);
+		System.out.println(animal1.habitat);
+		
+		System.out.println("\nCalling all the methods of animal class\n");
+		animal1.eat();
+		animal1.makeNoise();
+		animal1.sleep();
+		animal1.roam();
+		
+		
+	//******************************************************************
+	//					ANIMALGETTERSETTER CLASS
+	//******************************************************************
+		
+		
+		//==============================================================
+		// ANIMALGETTERSETTER CLASS INSTANTIATION
+		//==============================================================
+		
+		AnimalGetterSetter animal2 = new AnimalGetterSetter();
+		
+		System.out.println("\nPrinting all the instance variables of AnimalGetterSetter class\n");
+		System.out.println(animal2.food);
+		System.out.println(animal2.location);
+		System.out.println(animal2.hunger);
+		System.out.println(animal2.habitat);
+		
+		//==============================================================
+		// setting instance variable values using setter
+		//==============================================================
+		
+		animal2.setFood("Fish");
+		animal2.setLocation("Asia");
+		animal2.setHunger(4);
+		animal2.setHabitat("Domestic");
+
+		//==============================================================
+		// printing instance variable values by instance variable
+		//==============================================================
+		
+		System.out.println("\nPrinting all the instance variables of AnimalGetterSetter class\n");
+		System.out.println(animal2.food);
+		System.out.println(animal2.location);
+		System.out.println(animal2.hunger);
+		System.out.println(animal2.habitat);
+		
+		//==============================================================
+		// printing instance variable values using getter
+		//==============================================================
+		
+		System.out.println("\nPrinting instance variables of AnimalGetterSetter class using getter\n");
+		System.out.println(animal2.getFood());
+		System.out.println(animal2.getLocation());
+		System.out.println(animal2.getHunger());
+		System.out.println(animal2.getHabitat());
+
+
+	//******************************************************************
+	//						ANIMALENCAPSULE CLASS
+	//******************************************************************		
+
+					
+		AnimalEncapsule animal8 = new AnimalEncapsule();
+
+		//==============================================================
+		// setting instance variable values using setter
+		//==============================================================
+		
+		animal8.setFood("Fish");
+		animal8.setLocation("Asia");
+		animal8.setHunger(4);
+		animal8.setHabitat("Domestic");
+
+		//==============================================================
+		// printing instance variable values by instance variable
+		//==============================================================
+		
+		//System.out.println("\nPrinting all the instance variables of AnimalEncapsulate class\n");
+		//System.out.println(animal8.food);
+		//System.out.println(animal8.location);
+		//System.out.println(animal8.hunger);
+		//System.out.println(animal8.habitat);
+		
+		//==============================================================
+		// printing instance variable values using getter
+		//==============================================================
+		
+		System.out.println("\nPrinting instance variables of AnimalEncapsulate class using getter\n");
+		System.out.println(animal8.getFood());
+		System.out.println(animal8.getLocation());
+		System.out.println(animal8.getHunger());
+		System.out.println(animal8.getHabitat());
+		
+		
+	//******************************************************************
+	//						ANIMALCONSTRUCTOR CLASS
+	//******************************************************************		
+
+		
+		//==============================================================
+		// ANIMALCONSTRUCTOR CLASS INSTANTIATION WITH CONSTRUCTOR - 1
+		//==============================================================
+		
+		AnimalConstructor animal3 = new AnimalConstructor();
+	
+		//==============================================================
+		// printing instance variable values
+		//==============================================================
+		
+		System.out.println("\nPrinting instance variables of AnimalConstructor class with Constructor - 1\n");
+		System.out.println(animal3.getFood());
+		System.out.println(animal3.getLocation());
+		System.out.println(animal3.getHunger());
+		System.out.println(animal3.getHabitat());
+		
+		//==============================================================
+		// ANIMALCONSTRUCTOR CLASS INSTANTIATION WITH CONSTRUCTOR - 2
+		//==============================================================
+		
+		AnimalConstructor animal4 = new AnimalConstructor("Rice");
+		
+		System.out.println("\nPrinting instance variables of AnimalConstructor class with Constructor - 2\n");
+		System.out.println(animal4.getFood());
+		System.out.println(animal4.getLocation());
+		System.out.println(animal4.getHunger());
+		System.out.println(animal4.getHabitat());
+		
+		//==============================================================
+		// ANIMALCONSTRUCTOR CLASS INSTANTIATION WITH CONSTRUCTOR - 3
+		//==============================================================
+		
+		AnimalConstructor animal5 = new AnimalConstructor("Rice");
+		
+		System.out.println("\nPrinting instance variables of AnimalConstructor class with Constructor - 3\n");
+		System.out.println(animal5.getFood());
+		System.out.println(animal5.getLocation());
+		System.out.println(animal5.getHunger());
+		System.out.println(animal5.getHabitat());		
+		
+		//==============================================================
+		// ANIMALCONSTRUCTOR CLASS INSTANTIATION WITH CONSTRUCTOR - 4
+		//==============================================================
+		
+		AnimalConstructor animal6 = new AnimalConstructor("Bread", "North America", 1);
+		
+		System.out.println("\nPrinting instance variables of AnimalConstructor class with Constructor - 4\n");
+		System.out.println(animal6.getFood());
+		System.out.println(animal6.getLocation());
+		System.out.println(animal6.getHunger());
+		System.out.println(animal6.getHabitat());
+		
+		//==============================================================
+		// ANIMALCONSTRUCTOR CLASS INSTANTIATION WITH CONSTRUCTOR - 5
+		//==============================================================
+		
+		AnimalConstructor animal7 = new AnimalConstructor("Cheese", "Australia", 2, "Water");
+		
+		System.out.println("\nPrinting instance variables of AnimalConstructor class with Constructor - 5\n");
+		System.out.println(animal7.getFood());
+		System.out.println(animal7.getLocation());
+		System.out.println(animal7.getHunger());
+		System.out.println(animal7.getHabitat());		
+		
+	}
+
+}
+
+===========
+ASSIGNMENTS
+===========
+
+. Run all the programs in lecture three
+. Add an instance variable in the Animal class (declare it as public)
+. Create getter setter for that newly created instance variable
+. Create a method in Animal which uses the instance variable
+. Create a constructor with the newly created instance variable
+. Test the instance variable, getter setter, method, constructor in your Test class
+. Now change the instance variable from public to private and repeat step 6
+. Write a small report describing the differences in result in step 6 and step 7
+. Please email the report along with the code to me in a text file. The report file should have your full name and email address at the top. Please name your report file as Lecture-three-report.
